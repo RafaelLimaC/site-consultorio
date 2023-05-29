@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica</title>  
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <p class="cabecalho__hora">03:33</p>
+            <div>
+                <i class="material-icons md-16 icon-preto">signal_cellular_4_bar</i>
+                <i class="material-icons md-16 icon-preto">battery_full</i>
+                <i class="material-icons md-16 icon-preto">wifi</i>
+            </div>
+        </div>  
+    </header>
+    <main>
+        <div class="container">
+            <section class="principal">
+                <div class="principal__conteudo">
+                    <img class="foto__perfil__medico" src="./assets/perfil-1.jpg" alt="Foto de perfil">
+                    <div class="display__column__space__around">
+                        <h2 class="titulo">Olá, Sônia</h2>
+                        <p class="texto__grande">Mais 4 consultas hoje</p>
+                    </div>
+                </div>
+            </section>
+            <section class="consultas">
+                <p class="titulo__grande">Hoje</p>
+                <div class="consultas__hoje">
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-2.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Luciana Dias</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">videocam</i>
+                                        <p class="texto__paciente">Consulta remota</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">14:00 - 15:00 (1 hora)</p>
+                            <div class="flex__between">
+                                <button class="btnLigarVideo">Ligar por vídeo</button>
+                                <button class="btnLigarAudio">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-3.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Larissa Santana</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">location_on</i>
+                                        <p class="texto__paciente">Consulta no local</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">16:00 - 17:00 - (1 hora)</p>
+                            <div>
+                                <button class="btnVerEndereco">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-4.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Marcos Correia</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">videocam</i>
+                                        <p class="texto__paciente">Consulta remota</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">17:20 - 18:00 (40 minutos)</p>
+                            <div class="flex__between">
+                                <button class="btnLigarVideo">Ligar por vídeo</button>
+                                <button class="btnLigarAudio">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="titulo__grande">Amanhã</p>
+                <div class="consultas__hoje">
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-5.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Clara Lemos</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">location_on</i>
+                                        <p class="texto__paciente">Consulta no local</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">18:00 - 19:00 - (1 hora)</p>
+                            <div>
+                                <button class="btnVerEndereco">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-2.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Luciana Dias</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">videocam</i>
+                                        <p class="texto__paciente">Consulta remota</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">14:00 - 15:00 (1 hora)</p>
+                            <div class="flex__between">
+                                <button class="btnLigarVideo">Ligar por vídeo</button>
+                                <button class="btnLigarAudio">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-4.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Marcos Correia</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">videocam</i>
+                                        <p class="texto__paciente">Consulta remota</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">17:20 - 18:00 (40 minutos)</p>
+                            <div class="flex__between">
+                                <button class="btnLigarVideo">Ligar por vídeo</button>
+                                <button class="btnLigarAudio">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-3.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Larissa Santana</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">location_on</i>
+                                        <p class="texto__paciente">Consulta no local</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">16:00 - 17:00 - (1 hora)</p>
+                            <div>
+                                <button class="btnVerEndereco">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="titulo__grande">Quarta-feira</p>
+                <div class="consultas__hoje">
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-5.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Clara Lemos</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">location_on</i>
+                                        <p class="texto__paciente">Consulta no local</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">18:00 - 19:00 - (1 hora)</p>
+                            <div>
+                                <button class="btnVerEndereco">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-2.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Luciana Dias</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">videocam</i>
+                                        <p class="texto__paciente">Consulta remota</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">14:00 - 15:00 (1 hora)</p>
+                            <div class="flex__between">
+                                <button class="btnLigarVideo">Ligar por vídeo</button>
+                                <button class="btnLigarAudio">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-4.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Marcos Correia</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">videocam</i>
+                                        <p class="texto__paciente">Consulta remota</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">17:20 - 18:00 (40 minutos)</p>
+                            <div class="flex__between">
+                                <button class="btnLigarVideo">Ligar por vídeo</button>
+                                <button class="btnLigarAudio">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consulta__container">
+                        <div class="flex__between">
+                            <div class="flex__16">
+                                <img class="foto__perfil__paciente" src="./assets/perfil-3.jpg" alt="Foto paciente">
+                                <div>
+                                    <p class="titulo__paciente">Larissa Santana</p>
+                                    <div class="flex__8">
+                                        <i class="material-icons-outlined md-18 icon-cinza align-icons">location_on</i>
+                                        <p class="texto__paciente">Consulta no local</p>
+                                    </div>
+                                </div>      
+                            </div>  
+                            <div class="icone__redondo">
+                                <i class="material-icons-outlined md-16 icon-azul">chat_bubble</i>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="conteudo__horario">
+                            <p class="texto__horario">16:00 - 17:00 - (1 hora)</p>
+                            <div>
+                                <button class="btnVerEndereco">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="contato">
+                <form class="formulario">
+                    <p class="titulo__grande" id="titulo__form">Cadastro de Consulta</p>
+
+                    <label for="nomeid" class="titulo__formularios">Nome:</label>
+                    <input type="text" id="nomeid" name="fnome" placeholder="Nome Sobrenome">
+
+                    <p class="titulo__formularios">Tipo de consulta</p>
+                    <div class="flex__16" id="botao__switch">
+                    <p class="titulo__paciente">Remota</p>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <p class="titulo__paciente">Presencial</p>
+                    </div>
+
+                    <label for="dataid" class="titulo__formularios">Data da consulta:</label>
+                    <input type="date" id="dataid" name="dtconsulta" value="2023-06-30" min="2023-01-01" max="2023-12-31">
+                    
+                    <label for="horarioid" class="titulo__formularios">Horário da consulta:</label>
+                    <input type="text" id="horarioid" name="dtconsulta" placeholder="00:00h"/>
+
+                    <label for="infoid" class="titulo__formularios">Observações adicionais:</label>
+                    <textarea id="infoid" rows="4" cols="50"></textarea>    
+
+                    <input type="submit"  class="form__submit" value="Salvar"/>
+                      
+                  </form>
+            </div>
+        </div>
+
+        <div class="rodape">
+            <div class="rodape__conteudo">
+                <div class="text__align__center">
+                    <i class="material-symbols-outlined md-22 icon-azul">calendar_month</i>
+                    <p class="texto__paciente"><strong class="texto__azul">Consultas</strong></p>
+                </div>
+                <div class="text__align__center">
+                    <i class="material-symbols-outlined md-22 icon-preto">group</i>
+                    <p class="texto__paciente">Clientes</p>
+                </div>
+                <div class="text__align__center">
+                    <i class="material-symbols-outlined md-22 icon-preto">bar_chart</i>
+                    <p class="texto__paciente">Relatórios</p>
+                </div>
+                <div class="text__align__center">
+                    <i class="material-symbols-outlined md-22 icon-preto">menu</i>
+                    <p class="texto__paciente">Menu</p>
+                </div>
+            </div>
+        </div>
+            
+    </main>
+    <footer class="floating__button__sticky">
+        <div class="relative">
+            <div id="container-floating">
+                <div id="floating-button">
+                    <i class="material-symbols-outlined plus">add</i>
+                    <i class="material-symbols-outlined edit">arrow_upward</i>
+                </div>
+                <div class="nd3 nds">
+                    <i class="material-symbols-outlined md-32 icon-branco">location_on</i>
+                </div>
+                
+                <div class="nd1 nds">
+                    <i class="material-symbols-outlined md-32 icon-branco">videocam</i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type = "text/javascript" src="main.js"></script>
+</body>
+</html>
